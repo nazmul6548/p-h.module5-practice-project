@@ -1,5 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Anton", sans-serif;
+  font-family: "Bungee Spice", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik Maps", system-ui;
+  font-family: "Work Sans", sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  
+}
+nav ul {
+  display: flex;
+  gap: 60px;
+}
+.nav-bar h3 {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.menu-items li {
+  list-style: none;
+  
+}
+.menu-items li a {
+  text-decoration: none;
+}
+span {
+  color: #fd6e0a;
+}
+.btn {
+  background-color: #fd6e0a;
+  padding: 15px 35px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  border-radius: 5px;
+  color: white;
 }
