@@ -68,6 +68,7 @@ span {
   border-radius: 5px;
   color: white;
   margin-right: 15px;
+  
 }
 .btn-2{
   background-color: #ffffff;
@@ -139,12 +140,14 @@ margin-bottom: 15px;
   padding: 230px;
  
 }
-.about-text h2{
+.about-text h2,.what-text h2,.summery-text h2{
   font-size: 35px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 padding-bottom: 30px;
+text-align: center;
+color: #181818;
 }
 .about-text p{
   font-size: 18px;
@@ -164,3 +167,131 @@ padding-bottom: 30px;
 
 }
 
+
+
+
+
+
+
+.what{
+  display: flex;
+  align-items: center;
+}
+.logo-text{
+  display: flex;
+  
+
+}
+.what-text{
+  text-align: center;
+  padding:0 150px;
+  padding-bottom: 50px;
+}
+.what-text p{
+  color: #757575;
+}
+.all-what-i-do{
+  background-color: #fff;
+  max-width: 1140px;
+  margin: auto;
+  /* padding: 150px; */
+}
+.logo-text-1{
+  background-color: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+}
+.logo-text-1 img{
+  padding-bottom: 30px;
+}
+.logo-text-1 h5{
+  padding-bottom: 30px;
+  font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color:#181818;
+}
+.logo-text-1 p{
+  padding-bottom: 30px;
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+color: #757575;
+}
+
+
+
+.all-summery{
+  max-width:1140px ;
+  margin: auto;
+  padding: 100px 0 20px 0;
+  
+}
+.all-summery-resume{
+  display: flex;
+  /* gap: 150px; */
+ 
+  
+}
+.all-summery-left-1 h5{
+  font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #474747;
+padding-bottom: 10px;
+}
+.all-summery-left-1 h6{
+  font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: #757575;
+padding-bottom: 20px;
+}
+.all-summery-left-1 p{
+  font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+color: #757575;
+padding-bottom: 30px;
+}
+.all-summery-inner h3{
+  font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #474747;
+padding:30px 0 30px 0;
+width: 70%;
+  margin: auto;
+}
+.all-summery-left-1{
+  width: 70%;
+  margin: auto;
+}
+.btnclass{
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer{
+  background-color: #FFF8F3;
+}
+.all-footer{
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  
+}
+.left-text{
+  /* width: 50%; */
+  /* margin: auto;/ */
+}
+.right-text{
+  /* width: 50%; */
+  /* margin: auto;/ */
+}
