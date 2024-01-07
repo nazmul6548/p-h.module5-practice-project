@@ -10,14 +10,31 @@
   font-family: "Rubik Maps", system-ui;
   font-family: "Work Sans", sans-serif;
 }
+header{
+  background-color: #FFF8F3;
+  background-image: url('./images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
+}
 
+nav{
+  max-width: 1130px;
+  margin: auto;
+  
+}
 .nav-bar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
   
 }
 nav ul {
   display: flex;
-  gap: 60px;
+  gap: 80px;
+  align-items: center;
+  padding-right: 50px;
 }
 .nav-bar h3 {
   font-size: 45px;
@@ -31,18 +48,119 @@ nav ul {
 }
 .menu-items li a {
   text-decoration: none;
+  font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #474747;
 }
 span {
   color: #fd6e0a;
 }
 .btn {
   background-color: #fd6e0a;
-  padding: 15px 35px;
-  font-size: 20px;
+  padding: 11px 25px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   border: none;
   border-radius: 5px;
   color: white;
+  margin-right: 15px;
 }
+.btn-2{
+  background-color: #ffffff;
+  padding: 11px 25px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  border-radius: 5px;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-right: 15px;
+}
+.only-text{
+  max-width: 40%;
+  margin: auto;
+  
+}
+.only-text h1{
+  font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.text-p{
+  font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: #474747;
+}
+.only-text p{
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-bottom: 15px;
+}
+.all-text-and-img{
+  display: flex;
+  align-items: center;
+  /* padding-top: 50px; */
+}
+.only-img img{
+  width: 100%;
+  vertical-align: middle;
+}
+.about-text{
+  text-align: center;
+}
+.adress{
+  display: flex;
+  /* gap: 100px; */
+  text-align: center;
+  justify-content: space-between;
+}
+.about-me{
+  background-color: #FFF8F3;
+  max-width: 1140px;
+  height: 550px;
+  margin:100px auto;
+  display: flex;
+  align-items: center;
+  
+}
+.all-about-me{
+  padding: 230px;
+ 
+}
+.about-text h2{
+  font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 30px;
+}
+.about-text p{
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+color: #757575;
+padding-bottom: 30px;
+}
+.adress-1 p{
+  font-size: 15px;
+  color: #474747;
+  padding-bottom: 10px;
+}
+.adress-1 h6{
+  font-size: 15px;
+
+}
+
