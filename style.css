@@ -424,4 +424,22 @@ font-size: 20px;
   .adress-1 p{
     padding: 0px;
   }
+  /* main{
+width: 80%;
+margin: 0 auto;
+  } */
+  .what{
+    /* text-align: center; */
+    margin-top: 30px;
+  }
+  .what-text h2{
+    padding-bottom: 10px;
+  }
+  .logo-text{
+    display: flex;
+    flex-direction: column;
+   width: 50%;
+   gap: 10px;
+   margin: 0 auto;
+  }
 }
