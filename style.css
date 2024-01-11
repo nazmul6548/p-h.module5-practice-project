@@ -444,7 +444,7 @@ margin: 0 auto;
   .logo-text{
     display: flex;
     flex-direction: column;
-   width: 70%;
+   width: 80%;
    gap: 10px;
    margin: 0 auto;
   }
@@ -458,6 +458,7 @@ margin: 0 auto;
   }
   .all-footer{
     text-align: center;
+    /* padding: 1px; */
   }
   .icons{
     display: flex;
@@ -465,8 +466,10 @@ margin: 0 auto;
     justify-content: center;
     text-align: center;
   }
+  
   .right-text{
     padding-top: 25px;
+    
   }
   .all-footer{
     display: flex;
