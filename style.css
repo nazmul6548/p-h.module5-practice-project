@@ -16,7 +16,6 @@ header {
   background-repeat: no-repeat;
   background-position: bottom right, left;
   /* padding-bottom:30px ; */
-  
 }
 
 nav {
@@ -287,6 +286,9 @@ footer {
   color: #181818;
   padding-bottom: 20px;
 }
+.all-input {
+  padding-bottom: 30px;
+}
 .left-text p {
   font-size: 14px;
   color: #474747;
@@ -307,7 +309,6 @@ footer {
   font-weight: 700;
   line-height: normal;
   padding-bottom: 28px;
-  
 }
 input {
   width: 95%;
@@ -330,3 +331,61 @@ input {
   height: 150px;
 }
 
+/* media queary */
+@media screen and (max-width: 576px) {
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 40px;
+  }
+  .btn {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-bottom: 15px;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  nav-bar {
+    width: 100%;
+    margin: 0 auto;
+  }
+  header {
+    background: none;
+  }
+  nav ul {
+    padding: 0px;
+    gap: 0px;
+  }
+  .all-text-and-img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .only-img img {
+    width: 50%;
+  }
+  .hide {
+    display: none;
+  }
+  .only-text {
+    max-width: 100%;
+  }
+  .only-text h1 {
+    font-size: 40px;
+    padding-top: 10px;
+  }
+  .only-text p {
+    font-size: 20px;
+    width: 100%;
+  }
+}
